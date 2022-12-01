@@ -1,0 +1,57 @@
+#general settings
+message-font: "JetBrains Mono Regular 16"
+message-color: "#fff"
+message-bg-color: "#00f"
+terminal-box: "terminal_box_*.png"
+terminal-font: "DejaVu Sans Regular 12"
+desktop-image: "spiderlilly.png"
+
+#help bar at the bottom
++ label {
+	top = 100%-25
+	left = 0
+	width = 100%
+	height = 20
+	text = "@KEYMAP_MIDDLE@"
+	align = "center"
+	font = "DejaVu Sans Regular 10"
+	color = "#FFF"
+}
+
+#boot menu
++ boot_menu {
+	left = 20%
+	width = 60%
+	top = 10%
+	height = 30%	
+	item_font = "JetBrains Mono Regular 32"
+	item_color = "#fff"
+	selected_item_font = "JetBrains Mono Regular 32"
+	selected_item_color= "#f00"
+	selected_item_pixmap_style = "blob_*.png"
+	icon_height = 25
+	icon_width = 25
+	item_height = 40
+	item_padding = 50
+	#item_icon_space = 0
+	item_spacing = 20
+	#scrollbar = true
+	#scrollbar_width = 20
+	#scrollbar_thumb = "slider_*.png"
+	menu_pixmap_style = "boot_menu_*.png"
+}
+
+#progress bar
++ progress_bar {
+	id = "__timeout__"
+	left = 15%
+	top = 80%
+	height = 20
+	width = 70%
+	font = "JetBrains Mono Regular 16"
+	text_color = "#fff"
+	fg_color = "#f00"
+	bg_color = "#000"
+	border_color = "#000"
+	text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
