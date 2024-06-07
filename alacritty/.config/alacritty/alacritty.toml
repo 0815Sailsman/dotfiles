@@ -18,7 +18,7 @@ family = "RobotoMono Nerd Font Mono"
 style = "Regular"
 
 [window]
-opacity = 0.1
+opacity = 0.4
 decorations = "Buttonless"
 blur = true
 startup_mode = "Maximized"
