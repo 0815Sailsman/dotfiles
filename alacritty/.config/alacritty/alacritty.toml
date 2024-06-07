@@ -1,0 +1,26 @@
+[font]
+size = 16.0
+
+[font.bold]
+family = "RobotoMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "RobotoMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "RobotoMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "RobotoMono Nerd Font Mono"
+style = "Regular"
+
+[window]
+opacity = 0.1
+decorations = "Buttonless"
+blur = true
+startup_mode = "Windowed"
+dimensions = { columns = 150, lines = 42 }
+position = { x = 550, y = 250 }
