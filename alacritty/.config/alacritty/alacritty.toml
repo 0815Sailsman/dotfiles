@@ -21,6 +21,6 @@ style = "Regular"
 opacity = 0.1
 decorations = "Buttonless"
 blur = true
-startup_mode = "Windowed"
+startup_mode = "Maximized"
 dimensions = { columns = 150, lines = 42 }
 position = { x = 550, y = 250 }
