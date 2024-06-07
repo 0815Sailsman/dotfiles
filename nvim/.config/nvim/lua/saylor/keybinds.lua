@@ -5,7 +5,7 @@ vim.keymap.set("n", "<leader>q", ":x<CR>")
 vim.keymap.set("n", "<leader>j", ":$<CR>")
 
 -- next buffer
-vim.keymap.set('n', '<C-Tab>', ':bnext<CR>', { noremap = true })
+vim.keymap.set("n", "<C-Tab>", ":bnext<CR>", { noremap = true })
 
 -- previous buffer
-vim.keymap.set('n', '<C-S-Tab>', ':bprevious<CR>', { noremap = true })
+vim.keymap.set("n", "<C-S-Tab>", ":bprevious<CR>", { noremap = true })
