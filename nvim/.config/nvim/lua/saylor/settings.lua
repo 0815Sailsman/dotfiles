@@ -43,5 +43,3 @@ vim.opt.undofile = true
 -- System-Clipboard verwenden
 vim.o.clipboard = 'unnamedplus'
 
-
--- theme
