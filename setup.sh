@@ -9,6 +9,7 @@ git submodule update
 base=(
     nvim
     alacritty
+    starship
 )
 
 # folders that should, or only need to be installed for a local user
