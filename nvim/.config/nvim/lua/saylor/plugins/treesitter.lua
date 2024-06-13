@@ -19,7 +19,9 @@ return {
                 "html",
                 "hyprlang",
                 "jsonc",
-                "bash"
+                "bash",
+                "typescript",
+                "css"
             },
             sync_install = false,
             highlight = { enable = true },
