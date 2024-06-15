@@ -1,5 +1,5 @@
 [font]
-size = 16.0
+size = 15.0
 
 [font.bold]
 family = "RobotoMono Nerd Font Mono"
@@ -18,9 +18,38 @@ family = "RobotoMono Nerd Font Mono"
 style = "Regular"
 
 [window]
-opacity = 0.4
+opacity = 0.6
 decorations = "Buttonless"
 blur = true
 startup_mode = "Maximized"
 dimensions = { columns = 150, lines = 42 }
 position = { x = 550, y = 250 }
+
+# Colors (Ayu Dark)
+
+# Default colors
+[colors.primary]
+background = '#0A0E14'
+foreground = '#FFFFFF'
+
+# Normal colors
+[colors.normal]
+black   = '#01060E'
+red     = '#EA6C73'
+green   = '#91B362'
+yellow  = '#F9AF4F'
+blue    = '#53BDFA'
+magenta = '#FAE994'
+cyan    = '#90E1C6'
+white   = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black   = '#686868'
+red     = '#F07178'
+green   = '#C2D94C'
+yellow  = '#FFB454'
+blue    = '#59C2FF'
+magenta = '#FFEE99'
+cyan    = '#95E6CB'
+white   = '#FFFFFF'

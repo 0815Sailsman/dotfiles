@@ -155,7 +155,7 @@ commands = [
 
 [character]
 format = "$symbol "
-success_symbol = "[❯](bold green)"
+success_symbol = "[❯](bold white)"
 error_symbol = "[❯](bold red)"
 vimcmd_symbol = "[❮](bold green)"
 vimcmd_visual_symbol = "[❮](bold yellow)"
@@ -272,7 +272,7 @@ fish_style_pwd_dir_length = 0
 use_logical_path = true
 format = "[$path]($style)[$read_only]($read_only_style) "
 repo_root_format = "[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
-style = "cyan bold"
+style = "white bold"
 disabled = false
 read_only = "🔒"
 read_only_style = "red"
@@ -388,7 +388,7 @@ disabled = false
 [git_branch]
 format = "on [$symbol$branch(:$remote_branch)]($style) "
 symbol = " "
-style = "bold purple"
+style = "bold white underline"
 truncation_length = 9223372036854775807
 truncation_symbol = "…"
 only_attached = false
@@ -410,7 +410,7 @@ disabled = false
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = "red bold"
+style = "fg:black bg:red bold"
 stashed = '\$'
 ahead = "⇡"
 behind = "⇣"
@@ -531,7 +531,7 @@ ssh_symbol = "🌐 "
 trim_at = "."
 detect_env_vars = []
 format = "[$ssh_symbol$hostname]($style): "
-style = "green dimmed bold"
+style = "gray dimmed bold"
 disabled = false
 
 [java]
@@ -1072,7 +1072,7 @@ detect_folders = []
 detect_env_vars = []
 format = "[$user]($style)"
 style_root = "red bold"
-style_user = "yellow bold"
+style_user = "white bold"
 show_always = true
 disabled = false
 

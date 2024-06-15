@@ -7,7 +7,7 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 
 # Highlight symlinks
-export LS_COLORS="ln=01;35"  # bold magenta symlinks
+export LS_COLORS="ln=35:di=34:ex=32"  # bold magenta symlinks
 
 # Aliases
 alias ls='ls --color=auto'

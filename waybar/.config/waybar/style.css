@@ -5,8 +5,10 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    /* background-color: rgba(43, 48, 59, 0.5); */
+    background-color: rgba(0, 0, 0, 1);
+    /* border-bottom: 1px solid rgba(100, 114, 125, 0.5); */
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -75,7 +77,6 @@ button:hover {
 #workspaces button.active {
     background-color: white;
     color: black;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
 }
 
 #mode {
@@ -119,19 +120,28 @@ button:hover {
     margin-right: 0;
 }
 
+label.module {
+    color: white;
+    border-bottom: 1px solid white;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-left: 1px solid white;
+}
+/*
 #clock {
     background-color: #64727D;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
     background-color: #26A65B;
 }
+*/
 
 @keyframes blink {
     to {
@@ -174,6 +184,7 @@ label:focus {
     background-color: #000000;
 }
 
+/*
 #cpu {
     background-color: #2ecc71;
     color: #000000;
@@ -192,7 +203,8 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #000000;
+    color: white;
 }
 
 #network.disconnected {
@@ -210,8 +222,10 @@ label:focus {
 }
 
 #wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    border-top: 0;
 }
 
 #wireplumber.muted {
@@ -331,3 +345,4 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+*/
