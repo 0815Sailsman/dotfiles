@@ -1,5 +1,6 @@
 // -*- mode: jsonc -*-
 {
+    "reload_style_on_change": true,
     // "layer": "top", // Waybar at top layer
     // "position": "left", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
@@ -17,13 +18,14 @@
         // "idle_inhibitor",
         "wireplumber",
         "network",
+        "network#speed",
         "power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
         "backlight",
         "keyboard-state",
-        "hyprland/language",
+        // "hyprland/language",
         "battery",
         "battery#bat2",
         "clock",
@@ -153,6 +155,10 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "network#speed": {
+        "format": "{bandwidthDownBytes}  <span color='cyan'></span>   {bandwidthUpBytes}  <span color='cyan'></span>",
+        "interval": 1
     },
     "custom/media": {
         "format": "{icon} {}",
