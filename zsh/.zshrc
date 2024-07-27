@@ -16,3 +16,10 @@ alias gst="git status"
 alias gaa="git add --all"
 alias gp="git push"
 alias gcmsg="git commit -m "
+
+# Enable zsh autocomplate support
+autoload -Uz compinit
+compinit
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

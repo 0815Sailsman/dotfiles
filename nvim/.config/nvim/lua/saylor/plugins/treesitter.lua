@@ -21,7 +21,8 @@ return {
                 "jsonc",
                 "bash",
                 "typescript",
-                "css"
+                "css",
+                "glsl"
             },
             sync_install = false,
             highlight = { enable = true },

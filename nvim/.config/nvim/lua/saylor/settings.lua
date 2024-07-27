@@ -44,7 +44,11 @@ vim.opt.undofile = true
 vim.o.clipboard = 'unnamedplus'
 
 vim.filetype.add {
-  extension = { rasi = 'rasi' },
+  extension = {
+        rasi = 'rasi',
+        vert = 'glsl',
+        frag = 'glsl'
+    },
   pattern = {
     ['.*/waybar/config'] = 'jsonc',
     ['.*/mako/config'] = 'dosini',
