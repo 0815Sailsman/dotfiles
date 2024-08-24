@@ -23,3 +23,6 @@ compinit
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# Add scripts directory to path
+export PATH=$PATH:~/scripts
