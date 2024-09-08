@@ -22,7 +22,8 @@ return {
                 "bash",
                 "typescript",
                 "css",
-                "glsl"
+                "glsl",
+                "kotlin"
             },
             sync_install = false,
             highlight = { enable = true },

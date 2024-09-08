@@ -16,6 +16,8 @@ alias gst="git status"
 alias gaa="git add --all"
 alias gp="git push"
 alias gcmsg="git commit -m "
+alias task="go-task"
+alias podmain="podman"
 
 # Enable zsh autocomplate support
 autoload -Uz compinit
